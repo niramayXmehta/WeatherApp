@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat';
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+h1 {
+  font-size: 9rem;
+}
+
+
+h2 {
+  font-size: 4rem;
+}
+
+
+h3 {
+  font-size: 2rem;
+}
+
+h4{
+  font-size: 4rem;
+}
+
+h5{
+  font-size: 2rem;
+}
+
+.app{
+  width: 100%;
+  height: 230vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: ghostwhite;
+}
+
+p{
+  font-size: 1.6rem;
+}
+
+.app::before{
+  content: '';
+  background: url('./assets/Background2.jpg');
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-size: cover;
+  left: 0;
+  z-index:-1 ;
+
+}
+
+.container{
+  max-width: 700px;
+  height: 700px;
+  margin: auto;
+  padding: 0 1rem;
+  position: relative;
+  top: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.temp{
+  text-align: center;
+}
+
+.description{
+  text-align: center;
+}
+
+.location{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+.Margin{
+  margin-top: 10%;
+}
+
+
+.app .extrainfo{
+  justify-content: space-evenly;
+  display: flex;
+  top: 10%;
+}
+
+.app .extrainfo1{
+  justify-content: space-evenly;
+  display: flex;
+  top: 15%;
+  margin-top: 5%;
+}
+
+/*.app .Background{
+  content: '';
+  background: url('./assets/Background2.jpg') no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index:-1 ;
+}
+*/
+
+.app .location{
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app .imageloc{
+  margin-left: 2%;
+}
+
+.app .Search{
+  text-align: center;
+  padding: 2%;
+  padding-top: 5%;
+}
+
+.app input{
+  font-size: 2rem;
+  border-radius: 30px;
+  text-align: center;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  font-family: 'Montserrat';
+  background: rgba(255, 255, 255, 0.1);
+  color: ghostwhite;
+}
+
+::placeholder{
+  color: ghostwhite;
+}
+
+.app .notemp{
+  font-size: 4rem;
+}
+
+.app .Suggestion{
+  margin-top: 10%;
+}
+.extraInfoImg{
+  justify-content: center;
+  text-align: center;
+}
+
+.app.Button{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+
+}
+
+.container1 { 
+text-align: center;
+margin-top: 10%;
+}
+
+.location{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 5%;
+}
+
+.Title{
+  text-align: center;
+  font-size: 60px;
+
+}
+
+.DailyInfo{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+} 
+
+
+.body1{
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.473);
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ul{
+  display: flex;
+  margin: 30px;
+
+  
+}
+.item{
+  display: flex;
+  margin-left: 10;
+  
+
+}
+.li{
+  margin: 0  1rem ;
+  color: #ffffff;
+  font-size: 20px;
+  display: flex;
+  text-decoration: none;
+  font-weight: bolder;
+  
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+
+
+
+
+
